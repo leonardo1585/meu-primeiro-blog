@@ -121,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = "/home/leonard368a/leonard368a.pythonanywhere.com/static"
+STATIC_ROOT = "/home/leonard368a/leonard368a.pythonanywhere.com/static/"
