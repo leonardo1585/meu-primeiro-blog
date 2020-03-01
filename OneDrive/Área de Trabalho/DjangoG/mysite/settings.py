@@ -24,7 +24,6 @@ SECRET_KEY = 'g8mlbx-xyqeo7=wt-cp+9)97^7*03aasmaq)f3@*r1v&si3-hi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-TEMPLATE_DEBUG  =  False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'leonard368a.pythonanywhere.com','localhost']
 
@@ -124,4 +123,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staic')
+STATIC_ROOT = "/home/leonard368a/leonard368a.pythonanywhere.com/static"
